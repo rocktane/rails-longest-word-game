@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Result</h1>
+  <div class="score">
+    <%= @message %>
+  </div>
+  <h3 class="mt-3">Score total: <%= session[:secret] %>pts</h3>
+  <div>
+    <%= link_to 'New game', new_path %>
+  </div>
+</div>
